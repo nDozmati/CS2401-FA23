@@ -1,0 +1,6 @@
+ins >> var1;
+while(ins.peek() == '/n')ins.ignore();
+getline(ins, var2);
+
+
+if(&ins == &cin) checks if cin equals ins operator

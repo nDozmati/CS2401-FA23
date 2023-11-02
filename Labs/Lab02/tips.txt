@@ -1,0 +1,14 @@
+Debugger:
+g++ -g files.cc
+gdb ./a.out
+break main
+break MyClass:my_function(parameters)
+break my_file.cc:137
+run
+next (or use n) next line of code
+step (or use s) step inside of function
+p var_name (current value of one variable)
+info local (current value of all variable)
+c (continue) resumes normal execution until next break
+where (bt means backtrace)
+q (quit gdb session)

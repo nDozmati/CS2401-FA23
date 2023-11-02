@@ -1,0 +1,16 @@
+Script started on 2023-10-05 16:48:42-04:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="88" LINES="6"]
+[?2004h]0;nd371518@DESKTOP-R5O6D42: ~/cs2401/Labs/Lab05[01;32mnd371518@DESKTOP-R5O6D42[00m:[01;34m~/cs2401/Labs/Lab05[00m$ ./a.out
+[?2004l
+Now showing list One:
+Elizabeth Zachary Clay Lainie Izaak Andrew Enter a name to search:Andrew
+That name is stored at address: 0x5603c9e1ffa0
+Clay Lainie Izaak Andrew Elizabeth Zachary [?2004h]0;nd371518@DESKTOP-R5O6D42: ~/cs2401/Labs/Lab05[01;32mnd371518@DESKTOP-R5O6D42[00m:[01;34m~/cs2401/Labs/Lab05[00m$ 
+[K]0;nd371518@DESKTOP-R5O6D42: ~/cs2401/Labs/Lab05[01;32mnd371518@DESKTOP-R5O6D42[00m:[01;34m~/cs2401/Labs/Lab05[00m$ ctrl-d 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kd
+[?2004l
+ctrl-d: command not found
+[?2004h]0;nd371518@DESKTOP-R5O6D42: ~/cs2401/Labs/Lab05[01;32mnd371518@DESKTOP-R5O6D42[00m:[01;34m~/cs2401/Labs/Lab05[00m$ [?2004l
+
+exit
+
+Script done on 2023-10-05 16:49:26-04:00 [COMMAND_EXIT_CODE="127"]

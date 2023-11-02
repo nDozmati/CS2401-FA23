@@ -1,0 +1,69 @@
+Script started on 2023-09-09 20:27:41-04:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="165" LINES="13"]
+[?2004h]0;nd371518@DESKTOP-R5O6D42: ~/cs2401/Labs/Lab01[01;32mnd371518@DESKTOP-R5O6D42[00m:[01;34m~/cs2401/Labs/Lab01[00m$ ./a.out
+[?2004l
+
+PROGRAM IS RUNNING!
+
+
+Welcome to my Rectangle Program!
+
+Please Enter the information for each rectangle below
+Enter the length: 1
+ Enter the width: 2
+Enter the length: 3
+ Enter the width: 4
+Enter Scalar Value (int): 5
+5 will be used for * and / operators.
+Here I have combined the two rectangles with the + operator: 
+Length: 4
+ Width: 6
+  Area: 24
+
+Here I have combined the two rectangles with the - operator: 
+Length: 0
+ Width: 0
+  Area: 0
+
+Here I have combined the first rectangle with the scalar using the * operator: 
+Length: 5
+ Width: 10
+  Area: 50
+
+Here I have combined the second rectangle with the scalar using the / operator: 
+Length: 0.6
+ Width: 0.8
+  Area: 0.48
+
+Here I have tested if the first rectangle is < than the second rectangle using the < operator: 
+1
+Here I have tested if the first rectangle is > than the second rectangle using the > operator: 
+0
+Here I have tested if the first rectangle is == to the second rectangle using the == operator: 
+0
+
+
+PROGRAM HAS ENDED!
+
+
+[?2004h]0;nd371518@DESKTOP-R5O6D42: ~/cs2401/Labs/Lab01[01;32mnd371518@DESKTOP-R5O6D42[00m:[01;34m~/cs2401/Labs/Lab01[00m$ end
+[?2004lCommand 'end' not found, did you mean:
+  command 'gnd' from snap gnd (master)
+  command 'env' from deb coreutils (8.32-4.1ubuntu1)
+  command 'and' from deb and (1.2.2-4.2)
+  command 'emd' from deb emd (1.0.1-2)
+  command 'ent' from deb ent (1.2debian-3)
+  command 'nd' from deb nd (0.8.2-8build1)
+  command 'eid' from deb id-utils (4.6.28-20200521ss15dab)
+  command 'send' from deb mailutils-mh (1:3.14-1)
+  command 'send' from deb mmh (0.4-4)
+  command 'send' from deb nmh (1.7.1-11)
+  command 'ed' from deb ed (1.18-1)
+  command 'snd' from deb snd-gui-jack (22.1-1)
+  command 'snd' from deb snd-gui-pulse (22.1-1)
+  command 'snd' from deb snd-nox (22.1-1)
+  command 'bnd' from deb bnd (5.0.1-3)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;nd371518@DESKTOP-R5O6D42: ~/cs2401/Labs/Lab01[01;32mnd371518@DESKTOP-R5O6D42[00m:[01;34m~/cs2401/Labs/Lab01[00m$ exit
+[?2004lexit
+
+Script done on 2023-09-09 20:28:29-04:00 [COMMAND_EXIT_CODE="127"]

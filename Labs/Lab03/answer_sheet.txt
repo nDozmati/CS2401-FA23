@@ -1,0 +1,69 @@
+Nicolas Dozmati
+Answers 1 - 5: static.cc (part 1)
+Answers 6 - 9: dynamic.cc (part 2)
+Answers 10 - 12: dynamic.cc (part 3)
+
+
+static.cc (part 1)
+
+Answer 1: (single output)
+*
+
+Answer 2: (loop in main call 6 times)
+*
+*
+*
+*
+*
+*
+
+Answer 3: (int x to static int x)
+*
+**
+***
+****
+*****
+******
+
+Answer 4: (what effect of using static?)
+static maintains x = 0 for each call of the function; if x is called 4 times, it will print 4 times since i is less than x.
+
+Answer 5: (what does removing static do?)
+the x value increments equally to i in the for loop, so on the 4th call it only prints once since x & i both equal 4.
+
+
+dynamic.cc (part2) <- NEEDS ATTENTION
+
+Answer 6: (print out memory address of x)
+0x7ffed1f7ace0
+ptr = &x; declares a new variable that stores a memory address
+cout << ptr; prints memory address of x
+
+Answer 7: (print out memory address of pointer)
+0x7ffed1f7acdc
+int *ptr declares a memory address for the dynamic variable as an integer
+cout << &ptr; prints memory address of pointer, which is different than x's address
+cout << *ptr; prints value of pointer at variable x (2401) - deallocating
+
+Answer 8: (print out repeated loop *ptr)
+2402 is stored at 0x7ffe7974c018
+2411 is stored at 0x7ffe7974c018
+We incremented the value stored within the pointer rather than the pointer itself
+
+Answer 9; (print out repeated loop ptr)
+0 is stored at 0x7ffedc3e9fec
+-444940384 is stored at 0x7ffedc3ea010
+We left the scope of our pointer so now its just random garbage.
+
+
+dynamic.cc (part 3)
+
+Answer 10: (note numbers in output)
+There are 5 random number arrays.
+
+Answer 11: (what I see after implementing copy function)
+I see 5 groups of 5 random number arrays being outputted.
+
+Answer 12: (what I see after writing tmpptr[n] = 0 and the output loop)
+The tmpptr will print n amount of numbers then 0 (number at index n equal to 0)
+The print loop will print 25 random numbers including the numbers printed by tmpptr and 0.

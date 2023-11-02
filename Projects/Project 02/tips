@@ -1,0 +1,41 @@
+Type In Command Prompt
+
+make a keygen (-t) keypair only works for cpu it was made on (repeat on other systems)
+ssh-keygen -t
+
+find ssh directory
+ls .ssh
+
+give public key to github
+cat .ssh/id_keyname
+
+copy-paste output to search engine (google)
+
+Done!
+
+
+In VS Code Terminal
+
+grab copy of github code
+git clone URL (URL web address)
+
+ls
+cd_assignment_folder
+ls
+
+git pull (takes all changes occuring in the repository and pulls it to your machine)
+git status (notes all changes from last pull)
+git add .filename (just the . adds all changes to stage)
+git commit -m "Message" (brief about stage)
+git push (pushes files to github)
+
+Order of Data Format for Test
+name
+date
+artist
+
+"your output" == "expected output"
+if I'm not getting an output, check:
+Song.cc::output
+Playlist.cc::show_all
+fix: use outs not cout
